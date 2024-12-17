@@ -1,0 +1,23 @@
+body{
+    display: grid;
+    place-content: center;
+}
+.fullscreen-center {
+    transform: translateY(40%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    padding-bottom: 1rem;
+}
+
+/* Ajustes para hacer el formulario cuadrado */
+.form-container {
+    width: 300px;
+    height: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}

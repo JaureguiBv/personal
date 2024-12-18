@@ -1,0 +1,22 @@
+.input-container {
+            position: relative; /* Posición relativa para el contenedor */
+        }
+        .input-container input {
+            width: 100%; /* Ancho completo */
+            padding-right: 40px; /* Espacio para el botón */
+            box-sizing: border-box; /* Incluye padding en el ancho */
+        }
+        .input-container button {
+            position: absolute; /* Posición absoluta para el botón */
+            right: 10px; /* Espaciado desde el lado derecho */
+            top: 75%; /* Centrado verticalmente */
+            transform: translateY(-50%); /* Ajuste del centrado vertical */
+            border: none; /* Sin borde */
+            background: none; /* Sin fondo */
+            cursor: pointer; /* Cambiar el cursor al pasar */
+            color: #6c757d; /* Color del ícono */
+            font-size: 1.25rem; /* Tamaño del ícono */
+        }
+        .input-container button:hover {
+            color: #0056b3; /* Cambia el color al pasar el mouse */
+        }
